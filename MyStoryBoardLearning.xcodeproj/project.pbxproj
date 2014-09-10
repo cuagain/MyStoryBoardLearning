@@ -114,10 +114,9 @@
 			children = (
 				D30DD74B19C05A0800B3AF56 /* AppDelegate.h */,
 				D30DD74C19C05A0800B3AF56 /* AppDelegate.m */,
-				D30DD74E19C05A0800B3AF56 /* Main.storyboard */,
-				D30DD75119C05A0800B3AF56 /* ViewController.h */,
-				D30DD75219C05A0800B3AF56 /* ViewController.m */,
-				D30DD75419C05A0800B3AF56 /* Images.xcassets */,
+				D30DD77119C05A2600B3AF56 /* Controllers */,
+				D30DD77219C05A2F00B3AF56 /* Views */,
+				D30DD77319C05A3500B3AF56 /* Assets */,
 				D30DD74319C05A0800B3AF56 /* Supporting Files */,
 			);
 			path = MyStoryBoardLearning;
@@ -150,6 +149,31 @@
 				D30DD76419C05A0800B3AF56 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D30DD77119C05A2600B3AF56 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D30DD75119C05A0800B3AF56 /* ViewController.h */,
+				D30DD75219C05A0800B3AF56 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D30DD77219C05A2F00B3AF56 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D30DD74E19C05A0800B3AF56 /* Main.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D30DD77319C05A3500B3AF56 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D30DD75419C05A0800B3AF56 /* Images.xcassets */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
