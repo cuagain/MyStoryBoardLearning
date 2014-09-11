@@ -8,7 +8,9 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()
+@interface ViewController () {
+    BOOL _isHiddenStatusBar;
+}
 
 @end
 
@@ -19,8 +21,27 @@
     [super viewDidLoad];
 	
     self.view.backgroundColor = [UIColor greenColor];
-    
+
+    self->_isHiddenStatusBar = NO;
 }
+
+- (UIStatusBarStyle)preferredStatusBarStyle {
+    
+    NSLog(@"preferredStatusBarStyle");
+    
+    return UIStatusBarStyleDefault;
+}
+
+-(BOOL) prefersStatusBarHidden {
+    NSLog(@"prefersStatusBarHidden");
+    return self->_isHiddenStatusBar;
+}
+
+- (UIStatusBarAnimation)preferredStatusBarUpdateAnimation {
+    NSLog(@"preferredStatusBarUpdateAnimation");
+    return UIStatusBarAnimationSlide;
+}
+
 
 - (void)didReceiveMemoryWarning
 {
@@ -28,4 +49,14 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btnTogglePressed:(id)sender {
+    
+    self->_isHiddenStatusBar = !self->_isHiddenStatusBar;
+    
+    [UIView animateWithDuration:0.5 animations:^{
+        [self setNeedsStatusBarAppearanceUpdate];
+    }];
+    
+    /**/
+}
 @end
