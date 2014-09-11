@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		90DEB75719C20CC000EC1C10 /* Third.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DEB75619C20CC000EC1C10 /* Third.storyboard */; };
 		90DEB75A19C20CDC00EC1C10 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DEB75919C20CDC00EC1C10 /* ThirdViewController.m */; };
+		90DEB75C19C21A2D00EC1C10 /* Fourth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DEB75B19C21A2D00EC1C10 /* Fourth.storyboard */; };
+		90DEB75F19C21A4400EC1C10 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DEB75E19C21A4400EC1C10 /* FourthViewController.m */; };
 		D30DD73D19C05A0700B3AF56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30DD73C19C05A0700B3AF56 /* Foundation.framework */; };
 		D30DD73F19C05A0700B3AF56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30DD73E19C05A0700B3AF56 /* CoreGraphics.framework */; };
 		D30DD74119C05A0700B3AF56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30DD74019C05A0700B3AF56 /* UIKit.framework */; };
@@ -42,6 +44,9 @@
 		90DEB75619C20CC000EC1C10 /* Third.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Third.storyboard; sourceTree = "<group>"; };
 		90DEB75819C20CDC00EC1C10 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		90DEB75919C20CDC00EC1C10 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		90DEB75B19C21A2D00EC1C10 /* Fourth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Fourth.storyboard; sourceTree = "<group>"; };
+		90DEB75D19C21A4400EC1C10 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		90DEB75E19C21A4400EC1C10 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
 		D30DD73919C05A0700B3AF56 /* MyStoryBoardLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyStoryBoardLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30DD73C19C05A0700B3AF56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D30DD73E19C05A0700B3AF56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -175,6 +180,8 @@
 				D3A1419F19C1844D00DD0F8C /* SecondTableViewController.m */,
 				90DEB75819C20CDC00EC1C10 /* ThirdViewController.h */,
 				90DEB75919C20CDC00EC1C10 /* ThirdViewController.m */,
+				90DEB75D19C21A4400EC1C10 /* FourthViewController.h */,
+				90DEB75E19C21A4400EC1C10 /* FourthViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -185,6 +192,7 @@
 				D30DD74E19C05A0800B3AF56 /* Main.storyboard */,
 				D3A1419619C183B600DD0F8C /* Second.storyboard */,
 				90DEB75619C20CC000EC1C10 /* Third.storyboard */,
+				90DEB75B19C21A2D00EC1C10 /* Fourth.storyboard */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -277,6 +285,7 @@
 				D30DD75519C05A0800B3AF56 /* Images.xcassets in Resources */,
 				D30DD74719C05A0800B3AF56 /* InfoPlist.strings in Resources */,
 				D30DD75019C05A0800B3AF56 /* Main.storyboard in Resources */,
+				90DEB75C19C21A2D00EC1C10 /* Fourth.storyboard in Resources */,
 				90DEB75719C20CC000EC1C10 /* Third.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -301,6 +310,7 @@
 				90DEB75A19C20CDC00EC1C10 /* ThirdViewController.m in Sources */,
 				D30DD74D19C05A0800B3AF56 /* AppDelegate.m in Sources */,
 				D30DD74919C05A0800B3AF56 /* main.m in Sources */,
+				90DEB75F19C21A4400EC1C10 /* FourthViewController.m in Sources */,
 				D3A141A019C1844D00DD0F8C /* SecondTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
