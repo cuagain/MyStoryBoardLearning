@@ -21,6 +21,9 @@
 		D30DD75E19C05A0800B3AF56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D30DD74019C05A0700B3AF56 /* UIKit.framework */; };
 		D30DD76619C05A0800B3AF56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D30DD76419C05A0800B3AF56 /* InfoPlist.strings */; };
 		D30DD76819C05A0800B3AF56 /* MyStoryBoardLearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D30DD76719C05A0800B3AF56 /* MyStoryBoardLearningTests.m */; };
+		D3A1419719C183B600DD0F8C /* Second.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3A1419619C183B600DD0F8C /* Second.storyboard */; };
+		D3A1419A19C183FA00DD0F8C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A1419919C183FA00DD0F8C /* SecondViewController.m */; };
+		D3A141A019C1844D00DD0F8C /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3A1419F19C1844D00DD0F8C /* SecondTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,11 @@
 		D30DD76319C05A0800B3AF56 /* MyStoryBoardLearningTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyStoryBoardLearningTests-Info.plist"; sourceTree = "<group>"; };
 		D30DD76519C05A0800B3AF56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D30DD76719C05A0800B3AF56 /* MyStoryBoardLearningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyStoryBoardLearningTests.m; sourceTree = "<group>"; };
+		D3A1419619C183B600DD0F8C /* Second.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Second.storyboard; sourceTree = "<group>"; };
+		D3A1419819C183FA00DD0F8C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D3A1419919C183FA00DD0F8C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D3A1419E19C1844D00DD0F8C /* SecondTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
+		D3A1419F19C1844D00DD0F8C /* SecondTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +164,10 @@
 			children = (
 				D30DD75119C05A0800B3AF56 /* ViewController.h */,
 				D30DD75219C05A0800B3AF56 /* ViewController.m */,
+				D3A1419819C183FA00DD0F8C /* SecondViewController.h */,
+				D3A1419919C183FA00DD0F8C /* SecondViewController.m */,
+				D3A1419E19C1844D00DD0F8C /* SecondTableViewController.h */,
+				D3A1419F19C1844D00DD0F8C /* SecondTableViewController.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -164,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				D30DD74E19C05A0800B3AF56 /* Main.storyboard */,
+				D3A1419619C183B600DD0F8C /* Second.storyboard */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -252,6 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A1419719C183B600DD0F8C /* Second.storyboard in Resources */,
 				D30DD75519C05A0800B3AF56 /* Images.xcassets in Resources */,
 				D30DD74719C05A0800B3AF56 /* InfoPlist.strings in Resources */,
 				D30DD75019C05A0800B3AF56 /* Main.storyboard in Resources */,
@@ -273,9 +287,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3A1419A19C183FA00DD0F8C /* SecondViewController.m in Sources */,
 				D30DD75319C05A0800B3AF56 /* ViewController.m in Sources */,
 				D30DD74D19C05A0800B3AF56 /* AppDelegate.m in Sources */,
 				D30DD74919C05A0800B3AF56 /* main.m in Sources */,
+				D3A141A019C1844D00DD0F8C /* SecondTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,6 +496,7 @@
 				D30DD76D19C05A0800B3AF56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D30DD76E19C05A0800B3AF56 /* Build configuration list for PBXNativeTarget "MyStoryBoardLearningTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +505,7 @@
 				D30DD77019C05A0800B3AF56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
