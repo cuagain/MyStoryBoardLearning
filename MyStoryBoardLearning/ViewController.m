@@ -25,6 +25,36 @@
     self->_isHiddenStatusBar = NO;
 }
 
+-(BOOL) shouldAutorotate {
+    return YES;
+}
+
+- (NSUInteger) supportedInterfaceOrientations {
+    NSLog(@"supportedInterfaceOrientations");
+    
+    return UIInterfaceOrientationMaskAllButUpsideDown;
+}
+
+-(void) viewWillAppear:(BOOL)animated {
+    NSLog(@"viewWillAppear");
+}
+
+-(void) viewDidAppear:(BOOL)animated {
+    NSLog(@"viewDidAppear");
+}
+
+-(void) viewWillLayoutSubviews {
+    CGRect b = self.view.bounds;
+    CGRect f = self.view.frame;
+    NSLog(@"viewWillLayoutSubviews fw = %f, fh = %f, bw = %f, bh = %f", f.size.width, f.size.height, b.size.width, b.size.height);
+}
+
+-(void) viewDidLayoutSubviews {
+    CGRect b = self.view.bounds;
+    CGRect f = self.view.frame;
+    NSLog(@"viewDidLayoutSubviews fw = %f, fh = %f, bw = %f, bh = %f", f.size.width, f.size.height, b.size.width, b.size.height);
+}
+
 - (UIStatusBarStyle)preferredStatusBarStyle {
     
     NSLog(@"preferredStatusBarStyle");
